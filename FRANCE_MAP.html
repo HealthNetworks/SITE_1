@@ -1,0 +1,56 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <title>Coordinating Care in France</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/test.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">  
+</head>
+
+<div class="header" style="padding-left:10%; padding-right:10%">
+    <img src="images/LOGO_BLUEGREEN_CROPPED.svg" alt="logo" style="height:55px;" class = 'img'>
+    <a href="#default" class="logo">Health Data Science<span class="text-accent">.</span></a>
+  <div class="header-right">
+    
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Research 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="GE_19.html">GE 2019</a>
+          <a href="GBD.html">GBD</a>
+          <a href="FRANCE_MAP.html">France</a>
+        </div>
+      </div> 
+      <a href="ABOUT.html">About</a>
+      <a href="mailto:j.clarke@imperial.ac.uk">Contact</a>
+  </div>
+</div>
+  
+<div style="padding-left:10%; padding-right:10%; text-align: justify">
+      <h3>Research Question: How are acute hospitals in France connected to one another by the patients they share?</h3>
+      <p>In this study, data from all inpatient presentations in France over a three-year period were combined to examine how often patients were admitted to pairs of hospitals on successive admissions. 
+          These data were converted into a undirected, unipartite network of hospitals connected by the frequency with which they shared patients. <br>
+           <br>This weighted adjcacency matric underwent Markov Multiscale Community detection - an unsupervised network clustering techniuque - to partition the French health system into patient-sharing clusters of hospitals.<br>
+           <br>The map below shows the results of a stable partition of the patient-sharing network with hospitals coloured according to their assigned patient-sharing cluster. <br>
+           <br>The evident spatial consistency of the map is as a result of the strong role spatial proximity between providers plays in determining the sharing of hospital patients. </p>    
+  </div>  
+    <div class="wrapper">
+        <div class="iframe-container">
+            <iframe src="https://jonnymclarke.github.io/FULL_455.html" frameborder="0"></iframe>
+        </div>
+    </div>  
+    
+    <div>
+        <p><br></p>
+    </div>
+
+  </body>
+  
+</html>
